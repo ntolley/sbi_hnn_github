@@ -35,8 +35,8 @@ prior_dict = {'gbar_L2Pyr_L2Pyr_ampa':(0, 0.01),
 'gbar_L5Pyr_L5Basket':(0, 0.01),
 'gbar_L5Basket_L5Basket':(0, 0.1)}
 
-param_low = [item[0] for key, item in prior_dict.items()]
-param_high = [item[1] for key, item in prior_dict.items()]
+param_low = [float(item[0]) for key, item in prior_dict.items()]
+param_high = [float(item[1]) for key, item in prior_dict.items()]
 prior = utils.BoxUniform(low=torch.tensor(param_low), high=torch.tensor(param_high))
 
 def dill_save(save_object, save_prefix, save_suffix, save_path):
@@ -62,7 +62,7 @@ class HNNSimulator:
         return summstats
 
 
-hnn_simulator = HNNSimulator(prior_dict)
+hnn_simulator = HNNSimulator(params_fname,prior_dict)
 simulator, prior = prepare_for_sbi(hnn_simulator, prior)
 inference = SNPE(prior)
 
