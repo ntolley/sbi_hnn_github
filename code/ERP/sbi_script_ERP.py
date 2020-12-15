@@ -13,15 +13,15 @@ import datetime
 import dill
 time_stamp = datetime.datetime.now().strftime("%m%d%Y_%H%M%S")
 
-save_suffix = 'beta_event_test_t10000_500ms' + '_' + time_stamp
-save_path = '/users/ntolley/scratch/sbi/beta_event_test/' + time_stamp + '/'
+save_suffix = 'ERPYes_t1000' + '_' + time_stamp
+save_path = '/users/ntolley/scratch/sbi/ERP/' + time_stamp + '/'
 os.mkdir(save_path)
 
 
-param_names = ['dipole_scalefctr', 't_evprox_1', 'sigma_t_evprox_1', 'numspikes_evprox_1', 'gbar_evprox_1_L2Pyr_ampa', 'gbar_evprox_1_L5Pyr_ampa', 't_evdist_1', 'sigma_t_evdist_1', 'numspikes_evdist_1', 'gbar_evdist_1_L2Pyr_ampa', 'gbar_evdist_1_L5Pyr_ampa']
-default_values = [3000, 26.61, 2.47, 1, 0.01525, 0.00865, 63.53, 3.85, 1, 7e-06, 0.1423]
-param_low = [60000, 125, 10, 1, 1e-06, 1e-06, 135, 5, 1, 1e-06, 1e-06]
-param_high = [200000, 155, 50, 20, 0.0005, 0.0005, 155, 30, 20, 0.0005, 0.0005]
+param_names = []
+default_values = []
+param_low = []
+param_high = []
 prior = utils.BoxUniform(low=torch.tensor(param_low), high=torch.tensor(param_high))
 
 def dill_save(save_object, save_prefix, save_suffix, save_path):
@@ -33,10 +33,10 @@ def dill_save(save_object, save_prefix, save_suffix, save_path):
 class HNNSimulator:
     def __init__(self):
         hnn_core_root = op.dirname(hnn_core.__file__)
-        params_fname = '/users/ntolley/Jones_Lab/sbi_hnn/051220_peribeta_basedonpostbeta16_6_opt_0.05_timestep_opt2_10ms_smoothing_opt_1trials_opt.param'
+        params_fname = '/users/ntolley/Jones_Lab/sbi_hnn/'
         self.params = read_params(params_fname)
 
-        self.param_names = ['dipole_scalefctr', 't_evprox_1', 'sigma_t_evprox_1', 'numspikes_evprox_1', 'gbar_evprox_1_L2Pyr_ampa', 'gbar_evprox_1_L5Pyr_ampa', 't_evdist_1', 'sigma_t_evdist_1', 'numspikes_evdist_1', 'gbar_evdist_1_L2Pyr_ampa', 'gbar_evdist_1_L5Pyr_ampa']
+        self.param_names = []
 
     def __call__(self, new_param_values):
         new_params = dict(zip(self.param_names, new_param_values.detach().cpu().numpy()))
@@ -58,7 +58,7 @@ dill_save(simulator, 'simulator', save_suffix, save_path)
 dill_save(prior, 'prior', save_suffix, save_path)
 dill_save(inference, 'inference', save_suffix, save_path)
 
-theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=10000, num_workers=48)
+theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=1000, num_workers=48)
 dill_save(theta, 'theta', save_suffix, save_path)
 dill_save(x, 'x', save_suffix, save_path)
 
