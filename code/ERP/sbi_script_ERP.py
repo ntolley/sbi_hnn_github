@@ -13,15 +13,30 @@ import datetime
 import dill
 time_stamp = datetime.datetime.now().strftime("%m%d%Y_%H%M%S")
 
-save_suffix = 'ERPYes_t1000' + '_' + time_stamp
-save_path = '/users/ntolley/scratch/sbi/ERP/' + time_stamp + '/'
+save_suffix = 'ERPYes_t100' + '_' + time_stamp
+save_path = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/' + time_stamp + '/'
 os.mkdir(save_path)
 
+params_fname = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/ERPYes.param'
 
-param_names = []
-default_values = []
-param_low = []
-param_high = []
+prior_dict = {'gbar_L2Pyr_L2Pyr_ampa':(0, 0.01),
+'gbar_L2Pyr_L2Pyr_nmda':(0, 0.01), 
+'gbar_L2Basket_L2Pyr_gabaa':(0, 0.1),
+'gbar_L2Basket_L2Pyr_gabab':(0, 0.1),
+'gbar_L2Pyr_L5Pyr':(0, 0.01),
+'gbar_L2Basket_L5Pyr':(0, 0.1),
+'gbar_L5Pyr_L5Pyr_ampa':(0, 0.01),
+'gbar_L5Pyr_L5Pyr_nmda':(0, 0.01),
+'gbar_L5Basket_L5Pyr_gabaa':(0, 0.1),
+'gbar_L5Basket_L5Pyr_gabab':(0, 0.1),
+'gbar_L2Pyr_L2Basket':(0, 0.01),
+'gbar_L2Basket_L2Basket':(0, 0.1),
+'gbar_L2Pyr_L5Basket':(0, 0.01),
+'gbar_L5Pyr_L5Basket':(0, 0.01),
+'gbar_L5Basket_L5Basket':(0, 0.1)}
+
+param_low = [item[0] for key, item in prior_dict.items()]
+param_high = [item[1] for key, item in prior_dict.items()]
 prior = utils.BoxUniform(low=torch.tensor(param_low), high=torch.tensor(param_high))
 
 def dill_save(save_object, save_prefix, save_suffix, save_path):
@@ -31,12 +46,9 @@ def dill_save(save_object, save_prefix, save_suffix, save_path):
 
 
 class HNNSimulator:
-    def __init__(self):
-        hnn_core_root = op.dirname(hnn_core.__file__)
-        params_fname = '/users/ntolley/Jones_Lab/sbi_hnn/'
+    def __init__(self, params_fname, prior_dict):
         self.params = read_params(params_fname)
-
-        self.param_names = []
+        self.param_names = list(prior_dict.keys())
 
     def __call__(self, new_param_values):
         new_params = dict(zip(self.param_names, new_param_values.detach().cpu().numpy()))
@@ -50,7 +62,7 @@ class HNNSimulator:
         return summstats
 
 
-hnn_simulator = HNNSimulator()
+hnn_simulator = HNNSimulator(prior_dict)
 simulator, prior = prepare_for_sbi(hnn_simulator, prior)
 inference = SNPE(prior)
 
@@ -58,7 +70,7 @@ dill_save(simulator, 'simulator', save_suffix, save_path)
 dill_save(prior, 'prior', save_suffix, save_path)
 dill_save(inference, 'inference', save_suffix, save_path)
 
-theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=1000, num_workers=48)
+theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=100, num_workers=48)
 dill_save(theta, 'theta', save_suffix, save_path)
 dill_save(x, 'x', save_suffix, save_path)
 
