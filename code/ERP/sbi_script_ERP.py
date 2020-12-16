@@ -13,7 +13,7 @@ import datetime
 import dill
 time_stamp = datetime.datetime.now().strftime("%m%d%Y_%H%M%S")
 
-save_suffix = 'ERPYes_t100' + '_' + time_stamp
+save_suffix = 'ERPYes_t10000' + '_' + time_stamp
 save_path = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/' + time_stamp + '/'
 os.mkdir(save_path)
 
@@ -70,7 +70,7 @@ dill_save(simulator, 'simulator', save_suffix, save_path)
 dill_save(prior, 'prior', save_suffix, save_path)
 dill_save(inference, 'inference', save_suffix, save_path)
 
-theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=100, num_workers=48)
+theta, x = simulate_for_sbi(simulator, proposal=prior, num_simulations=10000, num_workers=48)
 dill_save(theta, 'theta', save_suffix, save_path)
 dill_save(x, 'x', save_suffix, save_path)
 
