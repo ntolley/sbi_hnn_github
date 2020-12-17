@@ -13,11 +13,11 @@ import datetime
 import dill
 time_stamp = datetime.datetime.now().strftime("%m%d%Y_%H%M%S")
 
-save_suffix = 'ERPYes_t10000' + '_' + time_stamp
+save_suffix = 'ERPNo_t10000' + '_' + time_stamp
 save_path = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/' + time_stamp + '/'
 os.mkdir(save_path)
 
-params_fname = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/ERPYes.param'
+params_fname = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/ERP/ERPNo.param'
 
 prior_dict = {'gbar_L2Pyr_L2Pyr_ampa':(0, 0.01),
 'gbar_L2Pyr_L2Pyr_nmda':(0, 0.01), 
@@ -44,6 +44,7 @@ def dill_save(save_object, save_prefix, save_suffix, save_path):
     dill.dump(save_object, save_file)
     save_file.close()
 
+dill_save(params_fname, 'params_fname', save_suffix, save_path)
 
 class HNNSimulator:
     def __init__(self, params_fname, prior_dict):
