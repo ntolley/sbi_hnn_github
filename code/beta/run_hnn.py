@@ -1,28 +1,35 @@
+# from joblib.externals.loky import set_loky_pickler
+# set_loky_pickler("dill")
 import torch
 import os
 import os.path as op
 import numpy as np
 import hnn_core
 from hnn_core import simulate_dipole, Network, read_params, JoblibBackend
-import matplotlib as mpl
-import matplotlib.pyplot as plt
+#import matplotlib as mpl
+#import matplotlib.pyplot as plt
 import sbi.utils as utils
-from sbi.inference import SNPE, prepare_for_sbi, simulate_for_sbi
+#from sbi.inference import SNPE, prepare_for_sbi, simulate_for_sbi
 import multiprocessing
 import datetime
 import dill
 import joblib
+# from distributed import Client
+from dask_jobqueue import SLURMCluster
 from joblib import Parallel, delayed
-from dask.distributed import Client
 time_stamp = datetime.datetime.now().strftime("%m%d%Y_%H%M%S")
 
-client = Client(processes=False)
+cluster = SLURMCluster(cores=8,
+                       processes=1,
+                       memory="16GB",
+                       walltime="01:00:00",
+                       queue="carney-sjones-condo")
 
 save_suffix = 'beta_event' + '_' + time_stamp
-save_path = '../../data/beta/prerun_simulations/' + time_stamp + '/'
+save_path = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/prerun_simulations/' + time_stamp + '/'
 os.mkdir(save_path)
 
-params_fname = '../../data/beta/params/beta_param.param'
+params_fname = '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param'
 
 num_simulations = 10
 
@@ -42,7 +49,7 @@ param_low = [float(item[0]) for key, item in prior_dict.items()]
 param_high = [float(item[1]) for key, item in prior_dict.items()]
 prior = utils.BoxUniform(low=torch.tensor(param_low), high=torch.tensor(param_high))
 
-theta_samples = prior.sample_n(num_simulations)
+theta_samples = prior.sample((num_simulations,))
 
 def dill_save(save_object, save_prefix, save_suffix, save_path, extension='.pkl'):
     save_file = open(save_path + save_prefix + '_' + save_suffix + extension, 'wb')
@@ -72,19 +79,19 @@ class HNNSimulator:
 
 
 hnn_simulator = HNNSimulator(params_fname,prior_dict)
-sbi_simulator, sbi_prior = prepare_for_sbi(hnn_simulator, prior)
+#sbi_simulator, sbi_prior = prepare_for_sbi(hnn_simulator, prior)
 
-# def run_simulator(simulator, theta, sim_idx):
-#     new_param_values = theta_samples[sim_idx,:]
-#     dpl = simulator(new_param_values)
+def run_simulator(simulator, theta, sim_idx):
+    dpl = simulator(theta)
 
-#     dpl_name = save_path + save_prefix + '_' + save_suffix + 'dpl_sim{}'.format(sim_idx) + '.txt'
-#     param_name = save_path + save_prefix + '_' + save_suffix + 'theta_sim{}'.format(sim_idx) + '.txt'
+    dpl_name = save_path + '_' + save_suffix + 'dpl_sim{}'.format(sim_idx) + '.txt'
+    param_name = save_path + '_' + save_suffix + 'theta_sim{}'.format(sim_idx) + '.txt'
 
-#     np.savetxt(dpl_name, dpl, delimiter=',')
-#     np.savetxt(param_name, new_param_values, delimiter=',')
+    np.savetxt(dpl_name, dpl, delimiter=',')
+    np.savetxt(param_name, theta, delimiter=',')
 
-with joblib.parallel_backend('dask'):    
-        # Parallel(verbose=100,n_jobs=12)(delayed(run_simulator)(sbi_simulator, theta_samples[sim_idx,:], sim_idx) for sim_idx in range(num_simulations))
-        theta, x = simulate_for_sbi(sbi_simulator, proposal=sbi_prior, num_simulations=num_simulations, num_workers=12)
+with joblib.parallel_backend('dask',scheduler_host=cluster, wait_for_workers_timeout=60):    
+# Parallel(verbose=100,n_jobs=2)(delayed(run_simulator)(hnn_simulator, theta_samples[sim_idx,:], sim_idx) for sim_idx in range(num_simulations))
+     Parallel(verbose=100,n_jobs=48)(delayed(hnn_simulator)(theta_samples[sim_idx,:]) for sim_idx in range(num_simulations)) 
+       # theta, x = simulate_for_sbi(sbi_simulator, proposal=sbi_prior, num_simulations=num_simulations, num_workers=2)
 
