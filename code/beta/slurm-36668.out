@@ -1,0 +1,117 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 36668
+##  Job Name : dask-worker
+##  Nodelist : node1111
+##      CPUs : 1
+##  Mem/Node : 19456 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Sun Jan 10 14:16:57 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.11:34964'
+distributed.worker - INFO -       Start worker at:  tcp://172.20.207.11:46794
+distributed.worker - INFO -          Listening to:  tcp://172.20.207.11:46794
+distributed.worker - INFO -          dashboard at:        172.20.207.11:45629
+distributed.worker - INFO - Waiting to connect to:   tcp://172.20.209.5:45356
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-egkxu5bh
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.20.209.5:45356
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/pyramidal.py:622: RuntimeWarning: overflow encountered in exp
+  seg.gbar_ar = 1e-6 * np.exp(3e-3 * h.distance(seg.x))
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([1.5836e+05, 2.2764e+02, 4.6525e+01, 1.6146e+01, 1.8787e-04, 2.8932e-04,
+        2.4140e+02, 1.4651e+01, 1.9066e+01, 1.6768e-04, 4.4955e-04]))
+kwargs:    {}
+Exception: AssertionError()
+
+NEURON: gid 67 owned by 0 but no associated cell
+ near line 0
+ objref hoc_obj_[2]
+                   ^
+        ParallelContext[0].gid_connect(67, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([1.6128e+05, 2.2864e+02, 1.4610e+01, 1.4015e+01, 4.3480e-04, 3.9643e-05,
+        2.4851e+02, 2.7870e+01, 4.7093e+00, 4.3202e-04, 2.9137e-04]))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=181 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(181, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([1.0808e+05, 2.3347e+02, 1.8563e+01, 7.0811e+00, 8.3206e-05, 1.3532e-04,
+        2.5030e+02, 1.9876e+01, 1.2603e+01, 1.3925e-04, 2.8278e-04]))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([6.6857e+04, 2.2940e+02, 3.8290e+01, 7.4896e+00, 4.1599e-04, 4.5372e-04,
+        2.4437e+02, 9.7883e+00, 5.0573e+00, 4.4249e-04, 1.0349e-04]))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([1.3309e+05, 2.4216e+02, 2.8163e+01, 1.6613e+01, 2.8358e-04, 4.1752e-04,
+        2.5491e+02, 6.2106e+00, 1.1194e+01, 4.1327e-04, 2.2519e-04]))
+kwargs:    {}
+Exception: AssertionError()
+
+NEURON: gid 85 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(85, ...)
+NEURON: gid=121 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(121, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([1.2692e+05, 2.3865e+02, 3.7673e+01, 1.2261e+01, 4.2308e-04, 1.6410e-04,
+        2.3821e+02, 6.5182e+00, 1.7841e+01, 4.9816e-04, 1.3826e-04]))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  <__main__.HNNSimulator object at 0x7fd1500f8490>
+args:      (tensor([9.7964e+04, 2.2543e+02, 2.3507e+01, 1.5481e+01, 1.2267e-05, 2.0252e-04,
+        2.5344e+02, 1.2246e+01, 8.2759e+00, 1.2010e-04, 1.7391e-04]))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 21.91s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fd116d85440>, tensor([9.7343e+04, 2.5157e+02, 1.7432e+01, 5.3998e+00, 2.4258e-04, 1.3175e-04,
+        2.5387e+02, 5.5918e+00, 1.4932e+01, 2.2307e-04, 5.2610e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 3))
+kwargs:    {}
+Exception: TypeError('run_simulator() takes 3 positional arguments but 4 were given')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fd116d42710>, tensor([6.6857e+04, 2.2940e+02, 3.8290e+01, 7.4896e+00, 4.1599e-04, 4.5372e-04,
+        2.4437e+02, 9.7883e+00, 5.0573e+00, 4.4249e-04, 1.0349e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 2))
+kwargs:    {}
+Exception: NameError("name 'simulator' is not defined")
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 22.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fd116d4bdd0>, tensor([1.3309e+05, 2.4216e+02, 2.8163e+01, 1.6613e+01, 2.8358e-04, 4.1752e-04,
+        2.5491e+02, 6.2106e+00, 1.1194e+01, 4.1327e-04, 2.2519e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 6))
+kwargs:    {}
+Exception: IndexError('too many indices for tensor of dimension 0')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 21.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 21.34s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
