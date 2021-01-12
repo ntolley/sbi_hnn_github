@@ -1,0 +1,1135 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 101850
+##  Job Name : dask-worker
+##  Nodelist : node1105
+##      CPUs : 1
+##  Mem/Node : 96256 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Tue Jan 12 08:04:59 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:41572'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:39355'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:44904'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:41256'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:38360'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:34562'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:34639'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.207.5:37177'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-hm7f5hx_', purging
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:40162
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:40162
+distributed.worker - INFO -          dashboard at:         172.20.207.5:38770
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qz0q1euh
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:42473
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:42473
+distributed.worker - INFO -          dashboard at:         172.20.207.5:41350
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7pellbmk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:35271
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:35271
+distributed.worker - INFO -          dashboard at:         172.20.207.5:45141
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7eeqc44p
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:36998
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:36998
+distributed.worker - INFO -          dashboard at:         172.20.207.5:34341
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-clpwszxj
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:43669
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:43669
+distributed.worker - INFO -          dashboard at:         172.20.207.5:39064
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-av9guc0z
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:36566
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:36566
+distributed.worker - INFO -          dashboard at:         172.20.207.5:38222
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-l8bm5ji7
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:46514
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:46514
+distributed.worker - INFO -          dashboard at:         172.20.207.5:44593
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-cjtdlsc5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:   tcp://172.20.207.5:38618
+distributed.worker - INFO -          Listening to:   tcp://172.20.207.5:38618
+distributed.worker - INFO -          dashboard at:         172.20.207.5:45278
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                   12.50 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qs6qiup3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.24:41551
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 9.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.96s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.79s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.59s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.30s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.64s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.75s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 22.54s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.80s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.core - INFO - Event loop was unresponsive in Worker for 22.93s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.75s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.99s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:46514
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.18s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:40162
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.74s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:42473
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7pellbmk' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7pellbmk'
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:36566
+distributed.core - INFO - Event loop was unresponsive in Worker for 9.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-l8bm5ji7' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-l8bm5ji7'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-cjtdlsc5' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-cjtdlsc5'
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.core - INFO - Event loop was unresponsive in Worker for 33.40s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 24.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qz0q1euh' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qz0q1euh'
+distributed.nanny - INFO - Worker closed
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Fatal Python error: This thread state must be current when releasing
+
+Thread 0x00007f3976ad2700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Current thread 0x00007f39ecab3700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 58 in simulation_time
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 71 in _simulate_single_trial
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 35 in _clone_and_simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in <genexpr>
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/dipole.py", line 72 in simulate_dipole
+  File "<ipython-input-3-2a3cf4ddb92c>", line 18 in __call__
+  File "<ipython-input-3-2a3cf4ddb92c>", line 28 in run_simulator
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3318 in execute_task
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3425 in apply_function
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/_concurrent_futures_thread.py", line 65 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 55 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007f389b1c2700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007f38bffff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/selectors.py", line 415 in select
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 921 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 414 in _poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 257 in poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/queues.py", line 104 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/nanny.py", line 748 in watch_stop_q
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007f38e3fff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 269 in _watch
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007f3906a7a700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 379 in _recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 407 in _recv_bytes
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 250 in recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/process.py", line 143 in monitor_parent
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007f39f86e2740 (most recent call first):
+distributed.nanny - INFO - Worker process 27674 was killed by signal 6
+distributed.nanny - INFO - Worker closed
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Simulation time: 140.0 ms...
+Simulation time: 150.0 ms...
+Simulation time: 160.0 ms...
+Simulation time: 170.0 ms...
+Simulation time: 180.0 ms...
+Simulation time: 190.0 ms...
+distributed.nanny - INFO - Worker closed
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Simulation time: 140.0 ms...
+Simulation time: 150.0 ms...
+Simulation time: 160.0 ms...
+Simulation time: 170.0 ms...
+Simulation time: 180.0 ms...
+Simulation time: 190.0 ms...
+Simulation time: 200.0 ms...
+Simulation time: 210.0 ms...
+Fatal Python error: This thread state must be current when releasing
+
+Thread 0x00007fd9783af700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Current thread 0x00007fd9f4620700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 58 in simulation_time
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 71 in _simulate_single_trial
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 35 in _clone_and_simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in <genexpr>
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/dipole.py", line 72 in simulate_dipole
+  File "<ipython-input-3-2a3cf4ddb92c>", line 18 in __call__
+  File "<ipython-input-3-2a3cf4ddb92c>", line 28 in run_simulator
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3318 in execute_task
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3425 in apply_function
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/_concurrent_futures_thread.py", line 65 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 55 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd89ffff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd8c3fff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/selectors.py", line 415 in select
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 921 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 414 in _poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 257 in poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/queues.py", line 104 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/nanny.py", line 748 in watch_stop_q
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd8e7fff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 269 in _watch
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd90e627700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 379 in _recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 407 in _recv_bytes
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 250 in recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/process.py", line 143 in monitor_parent
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fda0028f740 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/_weakrefset.py", line 38 in _remove
+distributed.nanny - INFO - Worker process 27678 was killed by signal 6
+Simulation time: 200.0 ms...
+Simulation time: 210.0 ms...
+Fatal Python error: This thread state must be current when releasing
+
+Thread 0x00007fd6b477e700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Current thread 0x00007fd72a6d7700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 58 in simulation_time
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 71 in _simulate_single_trial
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 35 in _clone_and_simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in <genexpr>
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/dipole.py", line 72 in simulate_dipole
+  File "<ipython-input-3-2a3cf4ddb92c>", line 18 in __call__
+  File "<ipython-input-3-2a3cf4ddb92c>", line 28 in run_simulator
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3318 in execute_task
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3425 in apply_function
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/_concurrent_futures_thread.py", line 65 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 55 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd5d7fff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd5fbfff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/selectors.py", line 415 in select
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 921 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 414 in _poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 257 in poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/queues.py", line 104 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/nanny.py", line 748 in watch_stop_q
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd61ffff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/tokenize.py", line 447 in open
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 136 in updatecache
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 47 in getlines
+  File "/users/ntolley/.local/lib/python3.7/site-packages/torch/_fx/graph_module.py", line 27 in patched_getline
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 16 in getline
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 67 in info_frame
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 114 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 268 in _watch
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd64469e700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 379 in _recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 407 in _recv_bytes
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 250 in recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/process.py", line 143 in monitor_parent
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fd736306740 (most recent call first):
+distributed.nanny - INFO - Worker process 27683 was killed by signal 6
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:39355'
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 20.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:41256'
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Simulation time: 140.0 ms...
+Simulation time: 150.0 ms...
+Simulation time: 160.0 ms...
+Simulation time: 170.0 ms...
+Simulation time: 180.0 ms...
+Simulation time: 190.0 ms...
+Simulation time: 200.0 ms...
+Simulation time: 210.0 ms...
+Simulation time: 220.0 ms...
+Simulation time: 230.0 ms...
+Simulation time: 240.0 ms...
+Simulation time: 250.0 ms...
+Simulation time: 260.0 ms...
+Simulation time: 270.0 ms...
+Simulation time: 280.0 ms...
+Simulation time: 290.0 ms...
+Simulation time: 300.0 ms...
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:38360'
+Simulation time: 310.0 ms...
+Fatal Python error: This thread state must be current when releasing
+
+Thread 0x00007fa9ebfff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Current thread 0x00007faa113b5700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 58 in simulation_time
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/network_builder.py", line 71 in _simulate_single_trial
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 35 in _clone_and_simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in <genexpr>
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/parallel_backends.py", line 166 in simulate
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/dipole.py", line 72 in simulate_dipole
+  File "<ipython-input-3-2a3cf4ddb92c>", line 18 in __call__
+  File "<ipython-input-3-2a3cf4ddb92c>", line 28 in run_simulator
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3318 in execute_task
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 3425 in apply_function
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/_concurrent_futures_thread.py", line 65 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 55 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fa913182700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 300 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/queue.py", line 179 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/threadpoolexecutor.py", line 51 in _worker
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fa937fff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/selectors.py", line 415 in select
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 921 in wait
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 414 in _poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 257 in poll
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/queues.py", line 104 in get
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/nanny.py", line 748 in watch_stop_q
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fa95bfff700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 137 in updatecache
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 47 in getlines
+  File "/users/ntolley/.local/lib/python3.7/site-packages/torch/_fx/graph_module.py", line 27 in patched_getline
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/linecache.py", line 16 in getline
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 67 in info_frame
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 114 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 103 in process
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/profile.py", line 268 in _watch
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007fa97ea7e700 (most recent call first):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 379 in _recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 407 in _recv_bytes
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/multiprocessing/connection.py", line 250 in recv
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/process.py", line 143 in monitor_parent
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 870 in run
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 926 in _bootstrap_inner
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/threading.py", line 890 in _bootstrap
+
+Thread 0x00007faa706e6740 (most recent call first):
+distributed.nanny - INFO - Worker process 27672 was killed by signal 6
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.37s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:38618
+distributed.core - INFO - Event loop was unresponsive in Worker for 25.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:35271
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:41572'
+distributed.core - INFO - Event loop was unresponsive in Worker for 36.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.core - INFO - Event loop was unresponsive in Worker for 53.86s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 6.44s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils - ERROR - Timed out trying to connect to tcp://172.20.207.5:37177 after 10 s
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 442, in wait_for
+    return fut.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 374, in connect
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x7f453402c7d0>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.209.24:41551 after 10 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils.py", line 655, in log_errors
+    yield
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1187, in close
+    await r.close_gracefully()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.207.5:37177 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f44a6a66350>>, <Task finished coro=<Worker.heartbeat() done, defined at /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py:929> exception=OSError('Timed out trying to connect to tcp://172.20.207.5:37177 after 10 s')>)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 442, in wait_for
+    return fut.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 374, in connect
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x7f453402c7d0>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.209.24:41551 after 10 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 968, in heartbeat
+    await self.close(report=False)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1187, in close
+    await r.close_gracefully()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.207.5:37177 after 10 s
+distributed.worker - INFO - Comm closed
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff6d728710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.06s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Comm closed
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fe270e7ab90>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+distributed.core - INFO - Event loop was unresponsive in Worker for 29.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:36998
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-clpwszxj' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-clpwszxj'
+distributed.worker - INFO - Comm closed
+distributed.nanny - INFO - Worker closed
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Simulation time: 140.0 ms...
+Simulation time: 150.0 ms...
+Simulation time: 160.0 ms...
+Simulation time: 170.0 ms...
+Simulation time: 180.0 ms...
+Simulation time: 190.0 ms...
+Simulation time: 200.0 ms...
+Simulation time: 210.0 ms...
+Simulation time: 220.0 ms...
+Simulation time: 230.0 ms...
+Simulation time: 240.0 ms...
+Simulation time: 250.0 ms...
+Simulation time: 260.0 ms...
+Simulation time: 270.0 ms...
+Simulation time: 280.0 ms...
+Simulation time: 290.0 ms...
+Simulation time: 300.0 ms...
+Simulation time: 310.0 ms...
+Simulation time: 320.0 ms...
+Simulation time: 330.0 ms...
+Simulation time: 340.0 ms...
+Simulation time: 350.0 ms...
+Simulation time: 360.0 ms...
+Simulation time: 370.0 ms...
+Simulation time: 380.0 ms...
+Simulation time: 390.0 ms...
+Simulation time: 400.0 ms...
+Simulation time: 410.0 ms...
+Simulation time: 420.0 ms...
+Simulation time: 430.0 ms...
+Simulation time: 440.0 ms...
+Simulation time: 450.0 ms...
+Simulation time: 460.0 ms...
+Simulation time: 470.0 ms...
+Simulation time: 480.0 ms...
+Simulation time: 490.0 ms...
+distributed.core - INFO - Event loop was unresponsive in Worker for 19.31s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.utils - ERROR - Timed out trying to connect to tcp://172.20.207.5:34562 after 10 s
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 442, in wait_for
+    return fut.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 374, in connect
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x7f23e1a41850>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.209.24:41551 after 10 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils.py", line 655, in log_errors
+    yield
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1187, in close
+    await r.close_gracefully()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.207.5:34562 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f2390f39990>>, <Task finished coro=<Worker.heartbeat() done, defined at /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py:929> exception=OSError('Timed out trying to connect to tcp://172.20.207.5:34562 after 10 s')>)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 442, in wait_for
+    return fut.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 374, in connect
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x7f23e1a41850>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.209.24:41551 after 10 s
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 288, in connect
+    timeout=min(intermediate_cap, time_left()),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 968, in heartbeat
+    await self.close(report=False)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1187, in close
+    await r.close_gracefully()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 310, in connect
+    ) from active_exception
+OSError: Timed out trying to connect to tcp://172.20.207.5:34562 after 10 s
+distributed.worker - INFO - Comm closed
+distributed.worker - INFO - Stopping worker at tcp://172.20.207.5:43669
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-av9guc0z' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-av9guc0z'
+distributed.nanny - INFO - Worker closed
+joblib will run over 1 jobs
+Loading custom mechanism files from /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/mod/x86_64/.libs/libnrnmech.so
+Building the NEURON model
+[Done]
+running trial 1 on 1 cores
+Simulation time: 0.05 ms...
+Simulation time: 10.0 ms...
+Simulation time: 20.0 ms...
+Simulation time: 30.0 ms...
+Simulation time: 40.0 ms...
+Simulation time: 50.0 ms...
+Simulation time: 60.0 ms...
+Simulation time: 70.0 ms...
+Simulation time: 80.0 ms...
+Simulation time: 90.0 ms...
+Simulation time: 100.0 ms...
+Simulation time: 110.0 ms...
+Simulation time: 120.0 ms...
+Simulation time: 130.0 ms...
+Simulation time: 140.0 ms...
+Simulation time: 150.0 ms...
+Simulation time: 160.0 ms...
+Simulation time: 170.0 ms...
+Simulation time: 180.0 ms...
+Simulation time: 190.0 ms...
+Simulation time: 200.0 ms...
+Simulation time: 210.0 ms...
+Simulation time: 220.0 ms...
+Simulation time: 230.0 ms...
+Simulation time: 240.0 ms...
+Simulation time: 250.0 ms...
+Simulation time: 260.0 ms...
+Simulation time: 270.0 ms...
+Simulation time: 280.0 ms...
+Simulation time: 290.0 ms...
+Simulation time: 300.0 ms...
+Simulation time: 310.0 ms...
+Simulation time: 320.0 ms...
+Simulation time: 330.0 ms...
+Simulation time: 340.0 ms...
+Simulation time: 350.0 ms...
+Simulation time: 360.0 ms...
+Simulation time: 370.0 ms...
+Simulation time: 380.0 ms...
+Simulation time: 390.0 ms...
+Simulation time: 400.0 ms...
+Simulation time: 410.0 ms...
+Simulation time: 420.0 ms...
+Simulation time: 430.0 ms...
+Simulation time: 440.0 ms...
+Simulation time: 450.0 ms...
+Simulation time: 460.0 ms...
+Simulation time: 470.0 ms...
+Simulation time: 480.0 ms...
+Simulation time: 490.0 ms...
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:34639'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.207.5:44904'
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f23726d9710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f4488187710>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+slurmstepd: error: *** JOB 101850 ON node1105 CANCELLED AT 2021-01-12T08:15:11 DUE TO TIME LIMIT ***

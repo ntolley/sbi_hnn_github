@@ -1,0 +1,24 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 99173
+##  Job Name : dask-worker
+##  Nodelist : node1734
+##      CPUs : 1
+##  Mem/Node : 19456 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Mon Jan 11 17:36:23 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.213.34:39839'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-zi373yie', purging
+distributed.worker - INFO -       Start worker at:  tcp://172.20.213.34:36068
+distributed.worker - INFO -          Listening to:  tcp://172.20.213.34:36068
+distributed.worker - INFO -          dashboard at:        172.20.213.34:35957
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.207.51:37774
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-v0oqpc9w
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.207.51:37774
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+slurmstepd: error: *** JOB 99173 ON node1734 CANCELLED AT 2021-01-11T17:40:04 ***
