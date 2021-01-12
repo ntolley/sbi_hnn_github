@@ -15480,3 +15480,1534 @@ Traceback (most recent call last):
   File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
     raise CommClosedError
 distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3f0c3e8560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fbd14428560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f525edf2560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f8712be6560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f5ff29448c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fba52417560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f43f4ef7560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7eff7f234560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fd5597f0560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f18cab587a0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f0dd35a3560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb0a4226560>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f55df36e8c0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fb1d37475f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7fc1667e7dd0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f3a93642680>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+tornado.application - ERROR - Exception in callback <function Worker.__init__.<locals>.<lambda> at 0x7f9b364e95f0>
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 905, in _run
+    return self.callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 697, in <lambda>
+    lambda: self.batched_stream.send({"op": "keep-alive"}), 60000
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/batched.py", line 136, in send
+    raise CommClosedError
+distributed.comm.core.CommClosedError
+slurmstepd: error: *** JOB 102027 ON node1824 CANCELLED AT 2021-01-12T09:30:11 DUE TO TIME LIMIT ***
