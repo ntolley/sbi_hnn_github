@@ -1,0 +1,116 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 100301
+##  Job Name : dask-worker
+##  Nodelist : node1341
+##      CPUs : 1
+##  Mem/Node : 96256 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Mon Jan 11 17:56:02 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.209.41:46422'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-yq2zxtot', purging
+distributed.worker - INFO -       Start worker at:  tcp://172.20.209.41:41679
+distributed.worker - INFO -          Listening to:  tcp://172.20.209.41:41679
+distributed.worker - INFO -          dashboard at:        172.20.209.41:46222
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.207.51:38545
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-j7zdsgmk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.207.51:38545
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid 38 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(38, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb513cdbcb0>, tensor([1.3430e+05, 2.4431e+02, 2.7359e+01, 1.6792e+01, 1.3863e-05, 3.0566e-04,
+        2.5474e+02, 1.1362e+01, 1.3480e+01, 1.6139e-04, 4.7783e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 29))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid 88 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(88, ...)
+/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/pyramidal.py:622: RuntimeWarning: overflow encountered in exp
+  seg.gbar_ar = 1e-6 * np.exp(3e-3 * h.distance(seg.x))
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb51283c200>, tensor([1.4260e+05, 2.2530e+02, 4.2584e+01, 1.3124e+01, 4.2440e-04, 8.7961e-05,
+        2.3981e+02, 2.1423e+01, 3.6927e+00, 3.7056e-04, 1.5058e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 36))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb52e148f80>, tensor([1.1976e+05, 2.3336e+02, 1.3360e+01, 1.8186e+01, 1.8627e-04, 2.5748e-04,
+        2.4369e+02, 1.0727e+01, 1.1417e+01, 7.7642e-05, 3.9263e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 85))
+kwargs:    {}
+Exception: AssertionError()
+
+NEURON: gid 104 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(104, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb512831cb0>, tensor([1.9590e+05, 2.3908e+02, 2.2583e+01, 1.0694e+01, 1.3054e-04, 4.8869e-04,
+        2.4496e+02, 2.8661e+01, 4.3810e+00, 2.7890e-04, 1.8596e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 94))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb51283c3b0>, tensor([1.9613e+05, 2.4462e+02, 2.4320e+01, 1.1150e+00, 4.1204e-04, 3.3881e-04,
+        2.4926e+02, 1.2446e+01, 1.9989e+01, 1.7571e-04, 9.5666e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 39))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb51283c0e0>, tensor([1.5061e+05, 2.3547e+02, 3.7932e+01, 8.9533e+00, 2.9791e-05, 3.8412e-04,
+        2.4956e+02, 2.7450e+01, 1.9666e+01, 1.5364e-04, 4.1109e-06]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 33))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb512831a70>, tensor([8.5154e+04, 2.2959e+02, 3.8760e+01, 1.9839e+01, 4.4725e-04, 1.2321e-04,
+        2.4953e+02, 2.8237e+01, 6.0801e+00, 2.0381e-04, 1.6050e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 24))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 31.91s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 31.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid=129 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(129, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb5111118c0>, tensor([6.7988e+04, 2.2960e+02, 4.7122e+01, 1.6615e+01, 3.6117e-04, 4.1921e-04,
+        2.5072e+02, 2.8536e+01, 1.3913e+01, 1.5143e-04, 2.8380e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 13))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 10.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 21.51s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid 125 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(125, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7fb510e39050>, tensor([1.6825e+05, 2.5038e+02, 4.4194e+01, 1.3932e+01, 4.3078e-04, 4.0030e-04,
+        2.4597e+02, 2.6058e+01, 5.5114e+00, 4.4770e-06, 1.0807e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 14))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+slurmstepd: error: *** JOB 100301 ON node1341 CANCELLED AT 2021-01-11T18:06:05 ***

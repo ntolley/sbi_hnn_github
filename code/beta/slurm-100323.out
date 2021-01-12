@@ -1,0 +1,38 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 100323
+##  Job Name : dask-worker
+##  Nodelist : node1734
+##      CPUs : 1
+##  Mem/Node : 10240 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Mon Jan 11 18:06:23 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.213.34:39011'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-cqe5wdb0', purging
+distributed.worker - INFO -       Start worker at:  tcp://172.20.213.34:43618
+distributed.worker - INFO -          Listening to:  tcp://172.20.213.34:43618
+distributed.worker - INFO -          dashboard at:        172.20.213.34:45396
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.207.51:41920
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                   10.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-4t599fow
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.207.51:41920
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+NEURON: gid=225 has not been set on rank 0
+ near line 0
+ objref hoc_obj_[2]
+                   ^
+        ParallelContext[0].cell(225, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f025821a710>, tensor([1.7266e+05, 2.3017e+02, 2.4397e+01, 7.8392e+00, 3.9662e-04, 2.3542e-04,
+        2.4372e+02, 1.4834e+01, 4.7762e+00, 5.2454e-05, 3.8470e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 8))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+slurmstepd: error: *** JOB 100323 ON node1734 CANCELLED AT 2021-01-11T18:08:46 ***

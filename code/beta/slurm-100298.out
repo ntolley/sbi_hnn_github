@@ -1,0 +1,225 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 100298
+##  Job Name : dask-worker
+##  Nodelist : node1752
+##      CPUs : 1
+##  Mem/Node : 96256 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Mon Jan 11 17:56:03 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.213.52:39097'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wo4n7tzh', purging
+distributed.worker - INFO -       Start worker at:  tcp://172.20.213.52:46140
+distributed.worker - INFO -          Listening to:  tcp://172.20.213.52:46140
+distributed.worker - INFO -          dashboard at:        172.20.213.52:32902
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.207.51:38545
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                  100.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-yq2zxtot
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.207.51:38545
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+NEURON: gid 247 owned by 0 but no associated cell
+ near line 0
+ objref hoc_obj_[2]
+                   ^
+        ParallelContext[0].gid_connect(247, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f6009e0>, tensor([1.3666e+05, 2.4258e+02, 3.7436e+01, 3.2811e+00, 1.5356e-04, 3.7278e-04,
+        2.5056e+02, 7.8216e+00, 1.7614e+00, 2.4233e-04, 2.1450e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 17))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid 46 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(46, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f609320>, tensor([1.8741e+05, 2.3318e+02, 4.4664e+01, 1.1694e+01, 4.2837e-04, 4.4993e-04,
+        2.4329e+02, 7.0064e+00, 1.7220e+01, 3.3113e-04, 2.9023e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 77))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid 37 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(37, ...)
+/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/pyramidal.py:622: RuntimeWarning: overflow encountered in exp
+  seg.gbar_ar = 1e-6 * np.exp(3e-3 * h.distance(seg.x))
+NEURON: gid=188 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(188, ...)
+NEURON: gid=197 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(197, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f600c20>, tensor([6.7989e+04, 2.3019e+02, 4.7706e+01, 1.2284e+01, 2.5640e-05, 4.0515e-04,
+        2.3978e+02, 1.2769e+01, 6.7210e+00, 4.1305e-04, 3.2255e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 53))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f600050>, tensor([1.1176e+05, 2.4940e+02, 2.0881e+01, 1.2270e+00, 2.9818e-04, 3.6788e-04,
+        2.4135e+02, 2.9298e+01, 2.2153e+00, 2.3811e-04, 1.8076e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 11))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f600290>, tensor([9.4208e+04, 2.3949e+02, 3.3650e+01, 5.3019e+00, 1.3243e-04, 3.6944e-04,
+        2.4120e+02, 2.1919e+01, 1.5641e+01, 3.9019e-04, 2.5151e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 82))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid 57 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(57, ...)
+NEURON: gid=236 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(236, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5ca99a2d40>, tensor([8.0476e+04, 2.2605e+02, 1.2407e+01, 1.6268e+01, 3.3399e-04, 3.1595e-04,
+        2.5158e+02, 1.5723e+01, 1.5892e+01, 4.5610e-04, 2.5957e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 90))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c8f609170>, tensor([9.0601e+04, 2.3527e+02, 3.5258e+01, 1.0581e+01, 3.2959e-04, 1.9285e-04,
+        2.4481e+02, 2.6959e+01, 2.8333e+00, 4.9922e-04, 3.1068e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 6))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid=254 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(254, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e981680>, tensor([8.4704e+04, 2.4943e+02, 4.5109e+01, 1.6093e+01, 2.5778e-04, 1.1741e-04,
+        2.4968e+02, 2.9408e+01, 4.7050e+00, 9.1355e-05, 1.5266e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 41))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=245 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(245, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e981b00>, tensor([1.5514e+05, 2.4151e+02, 2.3427e+01, 8.0402e+00, 5.9715e-05, 2.6194e-04,
+        2.5086e+02, 2.3977e+01, 1.8391e+01, 8.7679e-05, 4.2000e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 92))
+kwargs:    {}
+Exception: AssertionError()
+
+NEURON: gid=232 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(232, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e9818c0>, tensor([1.0902e+05, 2.5221e+02, 2.6323e+01, 1.4789e+01, 4.1641e-05, 1.3786e-05,
+        2.3789e+02, 2.5719e+01, 1.6951e+01, 7.7520e-05, 1.3400e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 5))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=223 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(223, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e9814d0>, tensor([1.3153e+05, 2.4059e+02, 2.6682e+01, 1.2496e+01, 2.7528e-04, 4.4719e-04,
+        2.3885e+02, 2.3906e+01, 1.6248e+01, 3.3536e-04, 2.6678e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 89))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=180 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(180, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e981170>, tensor([1.1856e+05, 2.3123e+02, 1.0816e+01, 1.1219e+01, 2.1717e-04, 4.5398e-04,
+        2.3782e+02, 1.1882e+01, 1.5145e+01, 1.3625e-04, 4.3991e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 58))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e9a8290>, tensor([6.1072e+04, 2.5294e+02, 3.6416e+01, 5.9354e+00, 1.4464e-04, 1.2319e-04,
+        2.4895e+02, 2.9149e+01, 4.3126e+00, 3.4149e-06, 4.6335e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 57))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid 115 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(115, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e981200>, tensor([8.2891e+04, 2.3796e+02, 1.4076e+01, 1.6863e+01, 1.6260e-04, 3.3725e-04,
+        2.4400e+02, 2.0602e+01, 7.7354e+00, 2.0561e-04, 3.9367e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 70))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.23s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6e9210e0>, tensor([6.4666e+04, 2.3105e+02, 3.3376e+01, 1.8671e+01, 2.4211e-04, 1.7699e-04,
+        2.5052e+02, 9.4395e+00, 1.7602e+01, 2.5178e-04, 1.2521e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 26))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.75s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid=170 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(170, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6f5cfd40>, tensor([9.4993e+04, 2.5285e+02, 3.8544e+01, 1.4371e+01, 1.9699e-04, 1.0877e-04,
+        2.5139e+02, 9.4072e+00, 8.5630e+00, 3.6941e-04, 2.5672e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 10))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid=118 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(118, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c703b04d0>, tensor([1.5197e+05, 2.3882e+02, 2.5564e+01, 5.3023e+00, 1.2887e-04, 4.9120e-04,
+        2.4561e+02, 2.3185e+01, 1.4961e+01, 3.6815e-04, 4.1351e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 16))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+NEURON: gid 63 owned by 0 but no associated cell
+ near line 0
+ ^
+        ParallelContext[0].gid_connect(63, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f5c6edaf0e0>, tensor([9.4993e+04, 2.5285e+02, 3.8544e+01, 1.4371e+01, 1.9699e-04, 1.0877e-04,
+        2.5139e+02, 9.4072e+00, 8.5630e+00, 3.6941e-04, 2.5672e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 10))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: error: *** JOB 100298 ON node1752 CANCELLED AT 2021-01-11T18:06:06 ***

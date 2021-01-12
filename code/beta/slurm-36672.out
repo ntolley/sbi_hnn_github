@@ -33,3 +33,4 @@ kwargs:    {}
 Exception: IndexError('too many indices for tensor of dimension 0')
 
 distributed.core - INFO - Event loop was unresponsive in Worker for 4.14s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: error: *** JOB 36672 ON node1113 CANCELLED AT 2021-01-10T15:17:12 DUE TO TIME LIMIT ***

@@ -1,0 +1,162 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 37689
+##  Job Name : dask-worker
+##  Nodelist : node1310
+##      CPUs : 1
+##  Mem/Node : 19456 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Sun Jan 10 16:43:56 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.209.10:41883'
+distributed.worker - INFO -       Start worker at:  tcp://172.20.209.10:42385
+distributed.worker - INFO -          Listening to:  tcp://172.20.209.10:42385
+distributed.worker - INFO -          dashboard at:        172.20.209.10:33138
+distributed.worker - INFO - Waiting to connect to:   tcp://172.20.209.5:42989
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                   20.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8q1iyrlu
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:   tcp://172.20.209.5:42989
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f42591e82d0>>, <Task finished coro=<Worker.heartbeat() done, defined at /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py:929> exception=OSError('Timed out during handshake while connecting to tcp://172.20.209.5:42989 after 10 s')>)
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 970, in heartbeat
+    raise e
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 326, in connect
+    ) from exc
+OSError: Timed out during handshake while connecting to tcp://172.20.209.5:42989 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x7f42591e82d0>>, <Task finished coro=<Worker.heartbeat() done, defined at /users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py:929> exception=OSError('Timed out during handshake while connecting to tcp://172.20.209.5:42989 after 10 s')>)
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/asyncio/tasks.py", line 449, in wait_for
+    raise futures.TimeoutError()
+concurrent.futures._base.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 970, in heartbeat
+    raise e
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 939, in heartbeat
+    metrics=await self.get_metrics(),
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 389, in retry_operation
+    operation=operation,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 875, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/core.py", line 1030, in connect
+    **self.connection_args,
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/core.py", line 326, in connect
+    ) from exc
+OSError: Timed out during handshake while connecting to tcp://172.20.209.5:42989 after 10 s
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/hnn_core/pyramidal.py:622: RuntimeWarning: overflow encountered in exp
+  seg.gbar_ar = 1e-6 * np.exp(3e-3 * h.distance(seg.x))
+NEURON: gid=228 has not been set on rank 0
+ near line 0
+ objref hoc_obj_[2]
+                   ^
+        ParallelContext[0].cell(228, ...)
+NEURON: gid=219 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(219, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f421491d9e0>, tensor([1.0487e+05, 2.2834e+02, 4.1196e+01, 2.0182e+00, 2.1577e-04, 3.6589e-04,
+        2.5476e+02, 8.7755e+00, 7.2168e+00, 1.7562e-04, 5.6364e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 38))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=92 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(92, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f422ed6cdd0>, tensor([8.9896e+04, 2.5263e+02, 1.1574e+01, 8.2523e+00, 4.3959e-04, 4.2905e-04,
+        2.3533e+02, 1.2536e+01, 4.0142e+00, 4.6217e-04, 7.4102e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 49))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+NEURON: gid=206 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(206, ...)
+NEURON: gid=178 has not been set on rank 0
+ near line 0
+ ^
+        ParallelContext[0].cell(178, ...)
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f422ecee560>, tensor([1.2894e+05, 2.5243e+02, 4.4262e+01, 1.3653e+01, 1.5771e-04, 2.3262e-04,
+        2.5479e+02, 2.2283e+01, 9.9519e+00, 9.4216e-05, 3.2510e-05]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 61))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f421491dc20>, tensor([1.0674e+05, 2.2848e+02, 4.5754e+01, 1.3770e+01, 4.5373e-04, 5.0803e-05,
+        2.3667e+02, 5.1704e+00, 1.4603e+01, 4.1035e-04, 1.1381e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 27))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f421492b170>, tensor([1.5015e+05, 2.4369e+02, 4.8275e+01, 1.5217e+01, 1.9529e-04, 2.0647e-04,
+        2.4697e+02, 3.0000e+01, 1.3713e+01, 4.3931e-04, 4.2326e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 32))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f421491c7a0>, tensor([9.5449e+04, 2.2629e+02, 4.8160e+01, 4.6508e+00, 4.9200e-04, 1.3377e-04,
+        2.4229e+02, 1.8165e+01, 1.7488e+01, 1.2609e-04, 3.2888e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 19))
+kwargs:    {}
+Exception: RuntimeError('hoc error')
+
+distributed.worker - WARNING -  Compute Failed
+Function:  execute_task
+args:      ((<function run_simulator at 0x7f421491da70>, tensor([1.2592e+05, 2.2676e+02, 2.3297e+01, 1.2011e+01, 2.0835e-04, 2.9589e-04,
+        2.3548e+02, 1.4527e+01, 1.9360e+01, 4.9978e-04, 1.2288e-04]), '/users/ntolley/Jones_Lab/sbi_hnn_github/data/beta/params/beta_param.param', (<class 'dict'>, [['dipole_scalefctr', (<class 'tuple'>, [60000, 200000])], ['t_evprox_1', (<class 'tuple'>, [225, 255])], ['sigma_t_evprox_1', (<class 'tuple'>, [10, 50])], ['numspikes_evprox_1', (<class 'tuple'>, [1, 20])], ['gbar_evprox_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evprox_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['t_evdist_1', (<class 'tuple'>, [235, 255])], ['sigma_t_evdist_1', (<class 'tuple'>, [5, 30])], ['numspikes_evdist_1', (<class 'tuple'>, [1, 20])], ['gbar_evdist_1_L2Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])], ['gbar_evdist_1_L5Pyr_ampa', (<class 'tuple'>, [1e-06, 0.0005])]]), 31))
+kwargs:    {}
+Exception: AssertionError()
+
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.78s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.13s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 3.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: error: *** JOB 37689 ON node1310 CANCELLED AT 2021-01-10T16:45:13 ***
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...

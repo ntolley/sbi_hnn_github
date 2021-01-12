@@ -1,0 +1,28 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 100338
+##  Job Name : dask-worker
+##  Nodelist : node1736
+##      CPUs : 1
+##  Mem/Node : 10240 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Mon Jan 11 18:09:00 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.213.36:33388'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-pvjid9ic', purging
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-pvjid9ic/storage' (failed in <built-in function rmdir>): [Errno 2] No such file or directory: 'storage'
+distributed.worker - INFO -       Start worker at:  tcp://172.20.213.36:32923
+distributed.worker - INFO -          Listening to:  tcp://172.20.213.36:32923
+distributed.worker - INFO -          dashboard at:        172.20.213.36:36569
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.207.51:41757
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          8
+distributed.worker - INFO -                Memory:                   10.00 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-5a73wvi3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.207.51:41757
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.58s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: error: *** JOB 100338 ON node1736 CANCELLED AT 2021-01-11T18:12:17 ***

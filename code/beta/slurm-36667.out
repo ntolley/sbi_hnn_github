@@ -29,3 +29,4 @@ args:      ((<function run_simulator at 0x7fb534839290>, tensor([1.1531e+05, 2.4
 kwargs:    {}
 Exception: IndexError('too many indices for tensor of dimension 0')
 
+slurmstepd: error: *** JOB 36667 ON node1102 CANCELLED AT 2021-01-10T15:17:13 DUE TO TIME LIMIT ***
