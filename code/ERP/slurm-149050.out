@@ -1,0 +1,638 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 149050
+##  Job Name : dask-worker
+##  Nodelist : node1834
+##      CPUs : 1
+##  Mem/Node : 96256 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP
+##   Started : Sat Jan 16 12:02:09 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37558'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:45965'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37376'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:36951'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:40731'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37960'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:40520'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42281'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:33113'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:43250'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:34123'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:43591'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:43027'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37225'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42025'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:43975'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42957'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:38699'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:46230'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:32991'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:44601'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37910'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:36194'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:36113'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:43481'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:35900'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:45204'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:34088'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:46503'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:39103'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37257'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:33463'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:34720'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:38989'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:44060'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:39228'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42090'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:33031'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:37161'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:45316'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:39884'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:34459'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:32932'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42394'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:42576'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.34:46612'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-nttd5kqi', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3gsy8t7x', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-tywirvws', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-z4joo8jj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-fx9oq4oh', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-vlw837d4', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-gp14sgok', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bqr_jvl6', purging
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bqr_jvl6' (failed in <built-in function rmdir>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bqr_jvl6'
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:38674
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:38674
+distributed.worker - INFO -          dashboard at:        172.20.214.34:38776
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:34625
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:34625
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-xapvotk0
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:44374
+distributed.worker - INFO -          dashboard at:        172.20.214.34:35502
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:33049
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:32776
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:33049
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:32838
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:44374
+distributed.worker - INFO -          dashboard at:        172.20.214.34:35387
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:32838
+distributed.worker - INFO -          dashboard at:        172.20.214.34:39324
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:44454
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37093
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:40108
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0lp8u7ym
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:44454
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37083
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:40108
+distributed.worker - INFO -          dashboard at:        172.20.214.34:36979
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:35422
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37083
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -          dashboard at:        172.20.214.34:41989
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37806
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.34:36458
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:35422
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-e2uexbah
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:38104
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-qynpe78_
+distributed.worker - INFO -          dashboard at:        172.20.214.34:34708
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37806
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-2orvraiv
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:46531
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:34232
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:35593
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:38104
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.34:34802
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:42525
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:46531
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-qxl_n8t1
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:34232
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:38144
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:35593
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -          dashboard at:        172.20.214.34:38701
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -          dashboard at:        172.20.214.34:40420
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:42525
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37438
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:34800
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0c7kt547
+distributed.worker - INFO -          dashboard at:        172.20.214.34:41839
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -          dashboard at:        172.20.214.34:46721
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:43930
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-d1co_c8w
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:34800
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:38144
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.34:43594
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:43930
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.34:43363
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yd5tdzhw
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.34:40844
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0fpczcez
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ugp1o2fu
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-kji64hxm
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bj14iy11
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-c55w4g4u
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-eu2btckn
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bqjumz49
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-nsmpes7p
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-s94j4e5e
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:35483
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:45984
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:35483
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:45984
+distributed.worker - INFO -          dashboard at:        172.20.214.34:39182
+distributed.worker - INFO -          dashboard at:        172.20.214.34:44513
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:41424
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-4cxhy217
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-84lmang8
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:41424
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.34:35954
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-sxqkap12
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:43096
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:43096
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37394
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:40763
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:43661
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:32776
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:40763
+distributed.worker - INFO -          dashboard at:        172.20.214.34:45372
+distributed.worker - INFO -          dashboard at:        172.20.214.34:39294
+distributed.worker - INFO -          dashboard at:        172.20.214.34:38511
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37027
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37027
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:43661
+distributed.worker - INFO -          dashboard at:        172.20.214.34:34025
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37394
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -          dashboard at:        172.20.214.34:45930
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -          dashboard at:        172.20.214.34:40511
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-aevvzbmc
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-vosljeuf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0jz8vi8i
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3zj5_jzs
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-xesin6ib
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ydht6e0k
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:32971
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:32971
+distributed.worker - INFO -          dashboard at:        172.20.214.34:34709
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ny9zau0x
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:36161
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:36161
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37998
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-jv3gyom5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37490
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37490
+distributed.worker - INFO -          dashboard at:        172.20.214.34:39649
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-hxj8f02t
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:44079
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:44079
+distributed.worker - INFO -          dashboard at:        172.20.214.34:35997
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-q4cfrxwn
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:45038
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:45038
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37924
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-b491cbf1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:42687
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:42687
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37489
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ohkgqcik
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:36168
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:36168
+distributed.worker - INFO -          dashboard at:        172.20.214.34:35101
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-nnuszcvl
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:43188
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:43188
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO -          dashboard at:        172.20.214.34:42143
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-j5a_s3f6
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:41073
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:41073
+distributed.worker - INFO -          dashboard at:        172.20.214.34:37304
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-augpvgfk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:38288
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:38288
+distributed.worker - INFO -          dashboard at:        172.20.214.34:34739
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-p61re7o_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:46737
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:46737
+distributed.worker - INFO -          dashboard at:        172.20.214.34:45679
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-9lywk476
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:34373
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:34373
+distributed.worker - INFO -          dashboard at:        172.20.214.34:44130
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-n_lx4w52
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:44164
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:44164
+distributed.worker - INFO -          dashboard at:        172.20.214.34:33937
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-2zpvpr8f
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:36065
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:36065
+distributed.worker - INFO -          dashboard at:        172.20.214.34:40361
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:33715
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:33715
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.34:36949
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0f0ck34v
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-qv9di7hb
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:40990
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:40990
+distributed.worker - INFO -          dashboard at:        172.20.214.34:40008
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ss647bz_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:33675
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:33675
+distributed.worker - INFO -          dashboard at:        172.20.214.34:39647
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-g4ow4mol
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:37578
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:37578
+distributed.worker - INFO -          dashboard at:        172.20.214.34:38677
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-cr1ayj16
+distributed.worker - INFO - -------------------------------------------------
+/users/ntolley/anaconda/sbi/lib/python3.7/contextlib.py:119: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.34:41748
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.34:41748
+distributed.worker - INFO -          dashboard at:        172.20.214.34:46672
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.17 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-nfm4_mzu
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.10:42606
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.34s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 7.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 4.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 5.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.core - INFO - Event loop was unresponsive in Worker for 13.39s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 19.89s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Worker for 8.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
