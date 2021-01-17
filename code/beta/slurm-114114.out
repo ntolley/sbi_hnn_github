@@ -1,0 +1,1893 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 114114
+##  Job Name : dask-worker
+##  Nodelist : node1833
+##      CPUs : 1
+##  Mem/Node : 96256 MB
+## Directory : /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta
+##   Started : Wed Jan 13 17:28:26 EST 2021
+###############################################################################
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:35700'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:44940'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:37453'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:42498'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:34318'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:37546'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:36780'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:36394'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:36715'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:46294'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:39825'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:44828'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:33492'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:38746'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:46245'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:38727'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:35376'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:40420'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:45112'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:37308'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:38743'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:34255'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:44265'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:36581'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:42308'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:35933'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:38934'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:46632'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:39508'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:34771'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:42474'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:45170'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:44646'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:37850'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:42070'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:44883'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:45232'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:33867'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:36883'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:46325'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:42022'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://172.20.214.33:34386'
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2eyf5yq0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wkvqzqo9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-q2mqdr6h', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-mgm6l9ef', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-86vagw53', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qfpvy4e5', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-jivqavj0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-75_knaof', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-424b4_3p', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-igyzdyaj', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-imr3kr88', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-zd3fm5vy', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8z96svuw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-75v9a7ce', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-hfdxw7mh', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-iv42ye1j', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qv2c60wp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-9hyvn55i', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-0l3xj4au', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-46nhm2ha', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-re1qbnsc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-bmijmnm2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-cejm0ida', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7nq8wrmr', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-qs65bhx9', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-xinvupw0', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-4trqtvdu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ii4zfocw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-4bb9uiw2', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ng7oyod7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-furvhu60', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-uhn_uch_', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ktz1ibnb', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ueo8zaxu', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8dfwdjcn', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-89n8h2sp', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2hsblgj7', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-nc4jqesc', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-enrlimcw', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-lip6ewth', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-bymnfxqh', purging
+distributed.diskutils - INFO - Found stale lock file and directory '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-9rc7kzjz', purging
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:46466
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:46466
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35139
+distributed.worker - INFO -          dashboard at:        172.20.214.33:42778
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35139
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:34466
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:46845
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:41284
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:34466
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:42019
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:41284
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2tyiv6qf
+distributed.worker - INFO -          dashboard at:        172.20.214.33:43902
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:42019
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:46796
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:37216
+distributed.worker - INFO -          dashboard at:        172.20.214.33:41407
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-36j2kza3
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:38524
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:46796
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:37216
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44624
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45899
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33343
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8727az36
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2cxhmnm7
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-97pglbuw
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:38019
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:40889
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:43129
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kpy5n1ut
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oy7dcjwy
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:38019
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:40889
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33139
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33343
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:43129
+distributed.worker - INFO -          dashboard at:        172.20.214.33:37196
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35739
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33139
+distributed.worker - INFO -          dashboard at:        172.20.214.33:36862
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44028
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:39478
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          dashboard at:        172.20.214.33:40700
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45945
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35739
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:42623
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33954
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:45163
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:39478
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44568
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33158
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:42623
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33954
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:45163
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44339
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45879
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:46069
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44235
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33158
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33061
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:38495
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:44107
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45331
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33061
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:36623
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-a4gz5bzk
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:38495
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:44742
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35772
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35518
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:46881
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kgmna56v
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:46709
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:44107
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:43381
+distributed.worker - INFO -          dashboard at:        172.20.214.33:43426
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:36623
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.33:43775
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:44742
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-794cvjy9
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35772
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35518
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-pu3h7ezp
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:46881
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:42441
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:46709
+distributed.worker - INFO -          dashboard at:        172.20.214.33:37427
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:42441
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:43381
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -          dashboard at:        172.20.214.33:38679
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          dashboard at:        172.20.214.33:34513
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wqqlh7rx
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -          dashboard at:        172.20.214.33:37659
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wt_tnq8w
+distributed.worker - INFO -          dashboard at:        172.20.214.33:44532
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:34063
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45411
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -          dashboard at:        172.20.214.33:46332
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vh1j6vf5
+distributed.worker - INFO -          dashboard at:        172.20.214.33:45837
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-_cen_lyd
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-w1aeqaw8
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kmtusol_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-sde88unv
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ccud2bcc
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-o5mer7p3
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-eot12n_o
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ilo8nafg
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-gd9iy3r2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-98_62c2t
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-rg5sjdsw
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k1hacsyk
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ff9wgp2y
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-s3x27_he
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k3j8sa_m
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:42789
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:42789
+distributed.worker - INFO -          dashboard at:        172.20.214.33:43302
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-myn161n3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:41222
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:41222
+distributed.worker - INFO -          dashboard at:        172.20.214.33:36376
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-e603_xjl
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35957
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:37709
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:37709
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35957
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:36466
+distributed.worker - INFO -          dashboard at:        172.20.214.33:32844
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:35825
+distributed.worker - INFO -          dashboard at:        172.20.214.33:40250
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:39826
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:42023
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:46691
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:34110
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:35825
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:39826
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:40515
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vx9k0n54
+distributed.worker - INFO -          dashboard at:        172.20.214.33:40453
+distributed.worker - INFO -          dashboard at:        172.20.214.33:46366
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:46691
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:        172.20.214.33:37157
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:40515
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:33868
+distributed.worker - INFO -          dashboard at:        172.20.214.33:38185
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:33868
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.33:36905
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ux_ep8ma
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-3apxr4e0
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-zp96l3x7
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-22e2w68e
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:36466
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.33:36753
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2jys4_ul
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7k1gd5zb
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:34110
+distributed.worker - INFO -          dashboard at:        172.20.214.33:33513
+distributed.worker - INFO -       Start worker at:  tcp://172.20.214.33:43545
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:43545
+distributed.worker - INFO -          dashboard at:        172.20.214.33:42299
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-p1t49i7f
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-omqbhrr6
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to:  tcp://172.20.214.33:42023
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:        172.20.214.33:40891
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO - Waiting to connect to:  tcp://172.20.209.13:46532
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7a4mea85
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    2.38 GB
+distributed.worker - INFO -       Local Directory: /gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oxgso3yy
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to:  tcp://172.20.209.13:46532
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3100, 13100))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4200, 14200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7500, 17500))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+Warning: no DISPLAY environment variable.
+--No graphics will be displayed.
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(600, 10600))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6600, 16600))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8300, 18300))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4000, 14000))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4600, 14600))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5800, 15800))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(900, 10900))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2900, 12900))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2300, 12300))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6400, 16400))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6500, 16500))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5700, 15700))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1200, 11200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8000, 18000))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5400, 15400))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6900, 16900))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1500, 11500))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(800, 10800))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3900, 13900))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2600, 12600))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8500, 18500))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3800, 13800))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7900, 17900))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2000, 12000))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7200, 17200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8700, 18700))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9300, 19300))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7800, 17800))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3200, 13200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9700, 19700))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6200, 16200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4300, 14300))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6100, 16100))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9100, 19100))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(0, 10000))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9400, 19400))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5100, 15100))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9500, 19500))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2200, 12200))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4700, 14700))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2100, 12100))
+kwargs:    {}
+Exception: NameError("name 'sim_idx' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1600, 1700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1000, 1100))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9000, 9100))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6800, 6900))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1200, 1300))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4400, 4500))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9600, 9700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8400, 8500))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9100, 9200))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9700, 9800))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2400, 2500))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(600, 700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(200, 300))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3600, 3700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7400, 7500))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5900, 6000))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3900, 4000))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(0, 100))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(100, 200))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5300, 5400))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5800, 5900))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(500, 600))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(5600, 5700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(3700, 3800))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4300, 4400))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(6100, 6200))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2200, 2300))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(8800, 8900))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(4100, 4200))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1400, 1500))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(9500, 9600))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(7600, 7700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(2600, 2700))
+kwargs:    {}
+Exception: NameError("name 'sub_result' is not defined")
+
+distributed.worker - WARNING -  Compute Failed
+Function:  batch
+args:      (range(1400, 1500))
+kwargs:    {}
+Exception: TypeError('append() takes exactly one argument (0 given)')
+
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:42023 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:59826': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:41284 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:43440': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:37216 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:44512': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:42789 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:56228': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:37709 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:40889 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:55924': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:44260': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:38495 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:47982': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:42441 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:40536': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:35772 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:44742 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:44816': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:55312': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:33158 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:35898': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:33954 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:56982': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:33061 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:32976': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:43381 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:35518 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:46709 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:35364': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:38978': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:52478': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:39826 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:60834': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:46796 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:35825 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:60498': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:45434': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:34466 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:47350': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:46466 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:33976': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:35957 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:40644': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:43129 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:41222 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:50776': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:59156': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:33139 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:46881 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:52924': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:54874': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:39478 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:50392': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - ERROR - failed during get data with tcp://172.20.214.33:35139 -> None
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+TimeoutError: [Errno 110] Connection timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/worker.py", line 1347, in get_data
+    compressed = await comm.write(msg, serializers=serializers)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 265, in write
+    convert_stream_closed_error(self, e)
+  File "/users/ntolley/anaconda/sbi/lib/python3.7/site-packages/distributed/comm/tcp.py", line 124, in convert_stream_closed_error
+    ) from exc
+distributed.comm.core.CommClosedError: in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.core - INFO - Lost connection to 'tcp://172.20.209.13:40416': in <closed TCP>: TimeoutError: [Errno 110] Connection timed out
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:41284
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:46466
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:39478
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:43129
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:38019
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33139
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:46709
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:43381
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35772
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35518
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:34466
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35739
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:38495
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:44107
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:46881
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33954
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35957
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33343
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:45163
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:42623
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:42019
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:40889
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:42789
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:36466
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:44742
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:46796
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:40515
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:37709
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:36623
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35825
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:46691
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:39826
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:34110
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33158
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:41222
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:43545
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:42441
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:42023
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33061
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:33868
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:37216
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2cxhmnm7' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2cxhmnm7'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2tyiv6qf' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2tyiv6qf'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vh1j6vf5' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vh1j6vf5'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wqqlh7rx' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wqqlh7rx'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-a4gz5bzk' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-a4gz5bzk'
+distributed.nanny - INFO - Worker closed
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-s3x27_he' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-s3x27_he'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k3j8sa_m' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k3j8sa_m'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-_cen_lyd' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-_cen_lyd'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-3apxr4e0' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-3apxr4e0'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7a4mea85' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7a4mea85'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-22e2w68e' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-22e2w68e'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oxgso3yy' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oxgso3yy'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-e603_xjl' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-e603_xjl'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-omqbhrr6' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-omqbhrr6'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8727az36' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-8727az36'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-rg5sjdsw' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-rg5sjdsw'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-eot12n_o' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-eot12n_o'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ff9wgp2y' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ff9wgp2y'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k1hacsyk' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-k1hacsyk'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-98_62c2t' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-98_62c2t'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-o5mer7p3' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-o5mer7p3'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vx9k0n54' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-vx9k0n54'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-w1aeqaw8' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-w1aeqaw8'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7k1gd5zb' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-7k1gd5zb'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ux_ep8ma' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ux_ep8ma'
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-sde88unv' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-sde88unv'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-pu3h7ezp' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-pu3h7ezp'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-myn161n3' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-myn161n3'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-zp96l3x7' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-zp96l3x7'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kgmna56v' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kgmna56v'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kpy5n1ut' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kpy5n1ut'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-794cvjy9' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-794cvjy9'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-gd9iy3r2' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-gd9iy3r2'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kmtusol_' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-kmtusol_'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ilo8nafg' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ilo8nafg'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2jys4_ul' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-2jys4_ul'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-p1t49i7f' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-p1t49i7f'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oy7dcjwy' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-oy7dcjwy'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wt_tnq8w' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-wt_tnq8w'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ccud2bcc' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-ccud2bcc'
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-97pglbuw' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-97pglbuw'
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.worker - INFO - Stopping worker at tcp://172.20.214.33:35139
+distributed.diskutils - ERROR - Failed to remove '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-36j2kza3' (failed in <built-in function lstat>): [Errno 2] No such file or directory: '/gpfs/home/ntolley/Jones_Lab/sbi_hnn_github/code/beta/dask-worker-space/dask-worker-space/worker-36j2kza3'
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:45170'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:37546'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:33492'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:42022'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:34318'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:36715'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:34771'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:33867'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:38727'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:44646'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:44265'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:42308'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:46325'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:38743'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:39825'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:42474'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:35700'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:37850'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:46245'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:36780'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:45112'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:36883'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:44940'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:36581'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:36394'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:44883'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:40420'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:45232'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:37308'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:42070'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:44828'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:37453'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:38746'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:39508'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:35933'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:34255'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:42498'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:46294'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:34386'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:46632'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:38934'
+distributed.nanny - INFO - Closing Nanny at 'tcp://172.20.214.33:35376'
+distributed.dask_worker - INFO - End worker
