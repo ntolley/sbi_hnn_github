@@ -1,7 +1,9 @@
 import numpy as np
+import os
+import hnn_core
+from hnn_core import simulate_dipole, Network, read_params, JoblibBackend, MPIBackend
 
-def format_spikes(spike_times, spike_gids):
-    unique_gids = np.unique([gid for l in spike_gids for gid in l[0]])
+def format_spikes(spike_times, spike_gids, trial_form = True):
     num_sims = len(spike_gids)
     spike_times_list = []
     for gid in unique_gids:
@@ -10,6 +12,7 @@ def format_spikes(spike_times, spike_gids):
             gid_mask = np.in1d(spike_gids[sim_idx][0], gid)
             unit_trains.append(np.array(spike_times[sim_idx][0])[gid_mask])
         spike_times_list.append(unit_trains)
+    return spike_times_list
 
 class HNNSimulator:
     def __init__(self, params_fname, prior_dict):
