@@ -19,7 +19,7 @@ num_cores = multiprocessing.cpu_count()
 
 #Used to manually spike information to work with other functions in this module
 class tmpSpikes:
-    def __init__(spike_times, spike_gids, spike_types):
+    def __init__(self, spike_times, spike_gids, spike_types):
         self.spike_times = spike_times
         self.spike_gids = spike_gids
         self.spike_types = spike_types
