@@ -53,3 +53,26 @@ def simnets_mat(trial_sim):
         for idx1 in range(num_gids):
             unit_sim[idx1,idx2] = simnets_dist(trial_sim[idx1], trial_sim[idx2])
     return unit_sim
+
+#Format timestamps columns into list of size num_trials, empty lists inserted on trials where no spikes fired
+def grouped_ts_spikes_df(spikes_df, q=0.5):
+    spikes_df = spikes_df_all.groupby('gid').agg(lambda x: tuple(x)).applymap(list).reset_index()
+    spikes_df['type'] = spikes_df['type'].map(lambda x: x[0])
+    spikes_df['detected'] = spikes_df['detected'].map(lambda x: x[0])
+
+    #Format timestamps columns into list of size num_trials, empty lists inserted on trials where no spikes fired
+    grouped_ts = []
+    trial_sim = []
+    for gid in np.unique(spikes_df['gid'].values):
+        gid_ts = []
+        gid_trial_idx = 0 
+        for trial_idx in range(num_samples):
+            if trial_idx in spikes_df['trial'][spikes_df['gid'] == gid].values[0]:
+                gid_ts.append(np.array(spikes_df['timestamps'][spikes_df['gid'] == gid].values[0][gid_trial_idx]))
+                gid_trial_idx = gid_trial_idx + 1
+            else:
+                gid_ts.append(np.array([]))
+        grouped_ts.append(np.array(gid_ts))
+        trial_sim.append(vpTrialSimilarityMatrix(gid_ts,q).reshape((1,-1)).squeeze())
+    spikes_df['grouped_ts'] = grouped_ts
+    spikes_df['trial_sim'] = trial_sim
