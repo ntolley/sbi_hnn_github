@@ -55,7 +55,7 @@ def simnets_mat(trial_sim):
     return unit_sim
 
 #Format timestamps columns into list of size num_trials, empty lists inserted on trials where no spikes fired
-def grouped_ts_spikes_df(spikes_df, q=0.5):
+def grouped_ts_spikes_df(spikes_df_all, num_samples, q=0.5):
     spikes_df = spikes_df_all.groupby('gid').agg(lambda x: tuple(x)).applymap(list).reset_index()
     spikes_df['type'] = spikes_df['type'].map(lambda x: x[0])
     spikes_df['detected'] = spikes_df['detected'].map(lambda x: x[0])
@@ -76,3 +76,5 @@ def grouped_ts_spikes_df(spikes_df, q=0.5):
         trial_sim.append(vpTrialSimilarityMatrix(gid_ts,q).reshape((1,-1)).squeeze())
     spikes_df['grouped_ts'] = grouped_ts
     spikes_df['trial_sim'] = trial_sim
+
+    return spikes_df
