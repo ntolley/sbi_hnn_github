@@ -49,6 +49,18 @@ def run_simulator(theta, params_fname, prior_dict, sim_idx):
     hnn_simulator = HNNSimulator(params_fname,prior_dict)
     dpl, spike_times, spike_gids, spike_types = hnn_simulator(theta)
     return (dpl, spike_times, spike_gids, spike_types)
+
+#Dataset class used to load simulated dipoles
+class HNNDataset(torch.utils.data.Dataset):
+    def __init__(self, dpl, theta, device):
+        self.dpl = torch.as_tensor(dpl).to(device).float().unsqueeze(2)
+        self.theta = torch.as_tensor(theta).to(device).float()
+
+    def __len__(self):
+        return self.dpl.shape[0]
+
+    def __getitem__(self, idx):
+        return self.dpl[idx,:], self.theta[idx, :]
     
 #Bottlenecked autoencoder with user defined layers and sizes
 class autoencoder_linear(nn.Module):
