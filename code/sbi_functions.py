@@ -53,8 +53,8 @@ def run_simulator(theta, params_fname, prior_dict, sim_idx):
 #Dataset class used to load simulated dipoles
 class HNNDataset(torch.utils.data.Dataset):
     def __init__(self, dpl, theta, device):
-        self.dpl = torch.as_tensor(dpl).to(device).float().unsqueeze(2)
-        self.theta = torch.as_tensor(theta).to(device).float()
+        self.dpl = torch.as_tensor(dpl).float()
+        self.theta = torch.as_tensor(theta).float()
 
     def __len__(self):
         return self.dpl.shape[0]
@@ -64,10 +64,11 @@ class HNNDataset(torch.utils.data.Dataset):
     
 #Bottlenecked autoencoder with user defined layers and sizes
 class autoencoder_linear(nn.Module):
-    def __init__(self, input_size, layer_size):
+    def __init__(self, input_size, layer_size, device):
         super(autoencoder_linear, self).__init__()
         self.input_size,  self.layer_size = input_size, layer_size
         self.latent_dim = layer_size[-1]
+        self.device = device
 
         #List layer sizes
         self.encoder_hidden = np.concatenate([[input_size], layer_size])
@@ -75,10 +76,10 @@ class autoencoder_linear(nn.Module):
         
         #Compile layers into lists
         self.encoder_list = nn.ModuleList(
-            [nn.Linear(in_features=self.encoder_hidden[idx], out_features=self.encoder_hidden[idx+1]) for idx in range(len(self.encoder_hidden)-1)] )
+            [nn.Linear(in_features=self.encoder_hidden[idx], out_features=self.encoder_hidden[idx+1]).to(self.device) for idx in range(len(self.encoder_hidden)-1)] )
 
         self.decoder_list = nn.ModuleList(
-            [nn.Linear(in_features=self.decoder_hidden[idx], out_features=self.decoder_hidden[idx+1]) for idx in range(len(self.decoder_hidden)-1)] )
+            [nn.Linear(in_features=self.decoder_hidden[idx], out_features=self.decoder_hidden[idx+1]).to(self.device) for idx in range(len(self.decoder_hidden)-1)] )
         
  
     def forward(self, x):
