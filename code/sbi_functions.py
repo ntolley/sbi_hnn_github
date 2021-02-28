@@ -31,8 +31,8 @@ class HNNSimulator:
     def __call__(self, new_param_values):
         new_params = dict(zip(self.param_names, new_param_values.detach().cpu().numpy()))
         self.params.update(new_params)
-        self.params['numspikes_evprox_1'] = self.params['numspikes_evprox_1'].astype(int)
-        self.params['numspikes_evdist_1'] = self.params['numspikes_evdist_1'].astype(int)  
+        self.params['numspikes_evprox_1'] = int(self.params['numspikes_evprox_1'])
+        self.params['numspikes_evdist_1'] = int(self.params['numspikes_evdist_1'])  
 
         net = Network(self.params, add_drives_from_params=True)
         with JoblibBackend(n_jobs=1):
