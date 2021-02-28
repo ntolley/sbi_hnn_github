@@ -31,8 +31,10 @@ class HNNSimulator:
     def __call__(self, new_param_values):
         new_params = dict(zip(self.param_names, new_param_values.detach().cpu().numpy()))
         self.params.update(new_params)
+        self.params['numspikes_evprox_1'] = self.params['numspikes_evprox_1'].astype(int)
+        self.params['numspikes_evdist_1'] = self.params['numspikes_evdist_1'].astype(int)  
 
-        net = Network(self.params)
+        net = Network(self.params, add_drives_from_params=True)
         with JoblibBackend(n_jobs=1):
             dpl = simulate_dipole(net, n_trials=1)
 
@@ -156,3 +158,59 @@ class autoencoder_gru(nn.Module):
         hidden = weight.new(self.num_gru_layers, batch_size, self.hidden_size).zero_().to(self.device)
 
         return hidden
+
+#Simple feedforward ANN for decoding kinematics
+class model_ann(nn.Module):
+    def __init__(self, input_size, output_size, layer_size):
+        super(model_ann, self).__init__()
+        self.input_size,  self.layer_size, self.output_size = input_size, layer_size, output_size
+
+        #List layer sizes
+        self.layer_hidden = np.concatenate([[input_size], layer_size, [output_size]])
+        
+        #Compile layers into lists
+        self.layer_list = nn.ModuleList(
+            [nn.Linear(in_features=self.layer_hidden[idx], out_features=self.layer_hidden[idx+1]) for idx in range(len(self.layer_hidden)-1)] )        
+ 
+    def forward(self, x):
+        #Encoding step
+        for idx in range(len(self.layer_list)):
+            x = F.tanh(self.layer_list[idx](x))
+
+        return x
+
+#GRU architecture
+class model_gru(nn.Module):
+    def __init__(self, input_size, output_size, hidden_dim, n_layers, dropout, device, bidirectional=False):
+        super(model_gru, self).__init__()
+
+        #multiplier based on bidirectional parameter
+        if bidirectional:
+            num_directions = 2
+        else:
+            num_directions = 1
+
+        # Defining some parameters
+        self.hidden_dim = hidden_dim
+        self.n_layers = n_layers * num_directions
+        self.device = device
+        self.dropout = dropout
+        self.bidirectional = bidirectional
+
+        #Defining the layers
+        self.gru = nn.GRU(input_size, hidden_dim, n_layers, batch_first=True, dropout=dropout, bidirectional=bidirectional)   
+
+        # Fully connected layer
+        self.fc = nn.Linear(hidden_dim*num_directions, output_size)
+    
+    def forward(self, x):
+        batch_size = x.size(0)
+        # Initializing hidden state for first input using method defined below
+        hidden = self.init_hidden(batch_size)
+        # Passing in the input and hidden state into the model and obtaining outputs
+        out, hidden = self.gru(x, hidden)
+        
+        # Reshaping the outputs such that it can be fit into the fully connected layer
+        out = out.contiguous()
+        out = self.fc(out)
+        return out
