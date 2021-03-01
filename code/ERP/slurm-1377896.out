@@ -1,0 +1,751 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:32873'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39809'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39913'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:46427'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39469'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:41235'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:33891'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:40001'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38667'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39545'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:42645'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38279'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:35993'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:40517'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:45895'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:34309'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:34951'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:34823'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:33493'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:42457'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:44053'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:46751'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:35359'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39745'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:46073'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:42207'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38195'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:43443'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:35353'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:34887'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39231'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:32787'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38203'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38459'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:35411'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:36759'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:45873'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39105'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:36087'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:36403'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:37531'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:39643'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:44223'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:45195'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:37469'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:42763'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38813'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:38863'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:33865'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.102.61:44493'
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:41977
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:32901
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45583
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:41977
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:41931
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:32901
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45697
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45583
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33243
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34849
+distributed.worker - INFO -          dashboard at:       198.202.102.61:40119
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:41931
+distributed.worker - INFO -          dashboard at:       198.202.102.61:33665
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45697
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33243
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO -          dashboard at:       198.202.102.61:40415
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO -          dashboard at:       198.202.102.61:38153
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46027
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-1f18sqr9
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-g3a7l5ts
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-qak8wo_j
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-30ee2gh9
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-92nrxkmu
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ih7h60e_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:34269
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:34269
+distributed.worker - INFO -          dashboard at:       198.202.102.61:32829
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-srqkbc__
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:44097
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:44097
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34071
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-0x4rk_4q
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:39979
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:39979
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43055
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bro49rgm
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33915
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33915
+distributed.worker - INFO -          dashboard at:       198.202.102.61:42129
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-46gvmwkr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:39657
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:39657
+distributed.worker - INFO -          dashboard at:       198.202.102.61:44653
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-hua6c76a
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:46211
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:46211
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34397
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-d6g545j3
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:39247
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45963
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45963
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:39247
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46005
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43453
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-w7cfn28o
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-oek18060
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33415
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33415
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34737
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-_ve7sbpl
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:34389
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:34389
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43225
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bgr16c28
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:39335
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45897
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45897
+distributed.worker - INFO -          dashboard at:       198.202.102.61:41325
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:39335
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -          dashboard at:       198.202.102.61:35361
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-eswle7oj
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3gub7cwq
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33181
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33181
+distributed.worker - INFO -          dashboard at:       198.202.102.61:33389
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-lux_4knp
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:38771
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:38771
+distributed.worker - INFO -          dashboard at:       198.202.102.61:45309
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-xqmp7gn7
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:44157
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:44157
+distributed.worker - INFO -          dashboard at:       198.202.102.61:44339
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-5cf88s21
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:34253
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:34253
+distributed.worker - INFO -          dashboard at:       198.202.102.61:36627
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-7wqvnsfz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:36145
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:36145
+distributed.worker - INFO -          dashboard at:       198.202.102.61:36841
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-11__aeyb
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:46539
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:46539
+distributed.worker - INFO -          dashboard at:       198.202.102.61:39777
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-rbeu1rqz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:37807
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:37807
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46641
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-xqkr7sji
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:43387
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:43387
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43869
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-d1fwmxdr
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45919
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45919
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43645
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-exzmaiom
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:43413
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:43413
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43647
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-mminyqyz
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:40845
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:40845
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46419
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-gfe1x0cf
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:41315
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:41315
+distributed.worker - INFO -          dashboard at:       198.202.102.61:45585
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bwvvgyfj
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:46667
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:46667
+distributed.worker - INFO -          dashboard at:       198.202.102.61:36899
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3lr379_s
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:34669
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:34669
+distributed.worker - INFO -          dashboard at:       198.202.102.61:37487
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3k05hzpv
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33671
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33671
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43039
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-z6bnlgky
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:34945
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:34945
+distributed.worker - INFO -          dashboard at:       198.202.102.61:37729
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-dlf_prn0
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:36641
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:36641
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46399
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-fcb8b4ng
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:43651
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:43651
+distributed.worker - INFO -          dashboard at:       198.202.102.61:39457
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-1hm7q17z
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:38235
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:38235
+distributed.worker - INFO -          dashboard at:       198.202.102.61:37823
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-dcw1u9_5
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:46583
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:46583
+distributed.worker - INFO -          dashboard at:       198.202.102.61:37599
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-_f6660wy
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:37289
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:37289
+distributed.worker - INFO -          dashboard at:       198.202.102.61:46965
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-slgq3vso
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:36213
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:36213
+distributed.worker - INFO -          dashboard at:       198.202.102.61:33407
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-zyv3t6bk
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:37215
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:37215
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34935
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-y880_e1p
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:46359
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:46359
+distributed.worker - INFO -          dashboard at:       198.202.102.61:40193
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-mslhbeqi
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45939
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45939
+distributed.worker - INFO -          dashboard at:       198.202.102.61:42353
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-4la8un53
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:33833
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:33833
+distributed.worker - INFO -          dashboard at:       198.202.102.61:45921
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yy86awdm
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:36693
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:36693
+distributed.worker - INFO -          dashboard at:       198.202.102.61:34525
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ayruwrsz
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:43327
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:43327
+distributed.worker - INFO -          dashboard at:       198.202.102.61:38049
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yoxh4d4b
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:38513
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:38513
+distributed.worker - INFO -          dashboard at:       198.202.102.61:43605
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-hrpqx5pl
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:45787
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:45787
+distributed.worker - INFO -          dashboard at:       198.202.102.61:37081
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-7c3hwkgx
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:39113
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:39113
+distributed.worker - INFO -          dashboard at:       198.202.102.61:45827
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-5d9y7see
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.102.61:40479
+distributed.worker - INFO -          Listening to: tcp://198.202.102.61:40479
+distributed.worker - INFO -          dashboard at:       198.202.102.61:40637
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ap8vvu1m
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.172:39919
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+slurmstepd: error: *** JOB 1377896 ON exp-8-30 CANCELLED AT 2021-02-28T19:37:44 ***
