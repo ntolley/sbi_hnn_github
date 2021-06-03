@@ -1,0 +1,2229 @@
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34319'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:37667'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41295'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:39919'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:38211'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:44843'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34915'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41017'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41767'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:45855'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:33103'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:38663'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:36461'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:39267'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34867'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:37937'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:37771'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41629'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:42171'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:35193'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:45363'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34703'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:35585'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:42405'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:42903'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:35271'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:40861'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:38609'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:45797'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41277'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:39391'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:44341'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:40243'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34759'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:43387'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41855'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34823'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:42311'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:46181'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:42051'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:41471'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34461'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:35001'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:43825'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:36413'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:38755'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:40931'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:37969'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:35299'
+distributed.nanny - INFO -         Start Nanny at: 'tcp://198.202.101.175:34661'
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:36899
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:33819
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:36899
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:33819
+distributed.worker - INFO -          dashboard at:      198.202.101.175:34371
+distributed.worker - INFO -          dashboard at:      198.202.101.175:34689
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-1q363940
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yc8_96b2
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:33277
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:33277
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43893
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-nmdr8d7w
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:47013
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:47013
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41035
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ez5y28u7
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:35365
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:35365
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43985
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-aw9lpefo
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:37805
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:37805
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41187
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-q6rd2tx2
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:40559
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:40559
+distributed.worker - INFO -          dashboard at:      198.202.101.175:39395
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-p2ahtmow
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:46095
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:46095
+distributed.worker - INFO -          dashboard at:      198.202.101.175:45013
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-j14woonb
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:44473
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:44473
+distributed.worker - INFO -          dashboard at:      198.202.101.175:39683
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-cjeroiw8
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:46219
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:46219
+distributed.worker - INFO -          dashboard at:      198.202.101.175:34695
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-r_jctqcc
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:43291
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:43291
+distributed.worker - INFO -          dashboard at:      198.202.101.175:42819
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-zg3tmwph
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:36941
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:36941
+distributed.worker - INFO -          dashboard at:      198.202.101.175:42713
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:33863
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-cznb3x28
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:33863
+distributed.worker - INFO -          dashboard at:      198.202.101.175:38449
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-2eka3yiq
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:37357
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:37357
+distributed.worker - INFO -          dashboard at:      198.202.101.175:45203
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-4q6arqil
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:40055
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:40055
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43655
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-9gp4xv4m
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:43213
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:43213
+distributed.worker - INFO -          dashboard at:      198.202.101.175:46005
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-r4hx407f
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:43573
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:43573
+distributed.worker - INFO -          dashboard at:      198.202.101.175:35897
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-rmc0kcme
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:46507
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:46507
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43987
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-3hge4d5n
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:44003
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:44003
+distributed.worker - INFO -          dashboard at:      198.202.101.175:40743
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-lrzn0nj0
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:33145
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:33145
+distributed.worker - INFO -          dashboard at:      198.202.101.175:44059
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-ukqqcu4x
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:39525
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:39525
+distributed.worker - INFO -          dashboard at:      198.202.101.175:37425
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yx_3twi1
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:37563
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:37563
+distributed.worker - INFO -          dashboard at:      198.202.101.175:37813
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-lladcuz8
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:34753
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:34753
+distributed.worker - INFO -          dashboard at:      198.202.101.175:45961
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-p749qvpv
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:37435
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:37435
+distributed.worker - INFO -          dashboard at:      198.202.101.175:39227
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-6wl21zj2
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:42137
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:42137
+distributed.worker - INFO -          dashboard at:      198.202.101.175:45265
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-l06c2bb9
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:36177
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:36177
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41503
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-tlmifzwn
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:38555
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:38555
+distributed.worker - INFO -          dashboard at:      198.202.101.175:35117
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-qt6_p7tp
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:35583
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:35583
+distributed.worker - INFO -          dashboard at:      198.202.101.175:36159
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-fj_cydb7
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:38707
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:38707
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43367
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-m9404a5u
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:42075
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:42075
+distributed.worker - INFO -          dashboard at:      198.202.101.175:46517
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-7l5240xg
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:42811
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:42811
+distributed.worker - INFO -          dashboard at:      198.202.101.175:38017
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-l76234rx
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:38033
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:38033
+distributed.worker - INFO -          dashboard at:      198.202.101.175:35715
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-6n0qwwd3
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:44957
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:44957
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41253
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-n18c4bme
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:34423
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:34423
+distributed.worker - INFO -          dashboard at:      198.202.101.175:38265
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-g28bha9x
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:42245
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:42245
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41753
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-d6ohf2xa
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:40219
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:40219
+distributed.worker - INFO -          dashboard at:      198.202.101.175:39241
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-4bx53n_3
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:33477
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:33477
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41435
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-bvlyy1qx
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:32865
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:32865
+distributed.worker - INFO -          dashboard at:      198.202.101.175:33049
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-avtip3ba
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:44441
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:44441
+distributed.worker - INFO -          dashboard at:      198.202.101.175:35091
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-i2oclcql
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:45787
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:45787
+distributed.worker - INFO -          dashboard at:      198.202.101.175:41559
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-oxjxz6gx
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:34609
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:34609
+distributed.worker - INFO -          dashboard at:      198.202.101.175:39865
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-2zb_j8o5
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:41113
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:41113
+distributed.worker - INFO -          dashboard at:      198.202.101.175:38073
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-o62y44yn
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:39497
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:39497
+distributed.worker - INFO -          dashboard at:      198.202.101.175:34603
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-u0xrw27q
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:42711
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:42711
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43029
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-284ld0wv
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:40041
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:40041
+distributed.worker - INFO -          dashboard at:      198.202.101.175:44139
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-5tw7nhu4
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:38521
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:38521
+distributed.worker - INFO -          dashboard at:      198.202.101.175:34109
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-gswe__t7
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:39459
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:39459
+distributed.worker - INFO -          dashboard at:      198.202.101.175:37029
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-r5tvg10a
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:40661
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:40661
+distributed.worker - INFO -          dashboard at:      198.202.101.175:40357
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-cqk68901
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:32993
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:32993
+distributed.worker - INFO -          dashboard at:      198.202.101.175:43735
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-yj_l3733
+distributed.worker - INFO - -------------------------------------------------
+/home/ntolley/anaconda3/envs/sbi/lib/python3.8/contextlib.py:120: UserWarning: Creating scratch directories is taking a surprisingly long time. This is often due to running workers on a network file system. Consider specifying a local-directory to point workers to write scratch data to a local disk.
+  next(self.gen)
+distributed.worker - INFO -       Start worker at: tcp://198.202.101.175:44981
+distributed.worker - INFO -          Listening to: tcp://198.202.101.175:44981
+distributed.worker - INFO -          dashboard at:      198.202.101.175:40333
+distributed.worker - INFO - Waiting to connect to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -               Threads:                          1
+distributed.worker - INFO -                Memory:                    4.00 GB
+distributed.worker - INFO -       Local Directory: /home/ntolley/Jones_Lab/sbi_hnn_github/code/ERP/dask-worker-space/dask-worker-space/worker-u9owo_8_
+distributed.worker - INFO - -------------------------------------------------
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - INFO -         Registered to: tcp://198.202.103.184:39127
+distributed.worker - INFO - -------------------------------------------------
+distributed.core - INFO - Starting established connection
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - WARNING - Heartbeat to scheduler failed
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+distributed.worker - INFO - Connection to scheduler broken.  Reconnecting...
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-377' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-367' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-368' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-366' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-355' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-379' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-373' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-355' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-376' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-354' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-366' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-374' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-379' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-377' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-374' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-373' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-364' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-373' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-368' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba60>>, <Task finished name='Task-382' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-367' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-381' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-365' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-367' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-384' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-355' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 867, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/iostream.py", line 1140, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 491, in wait_for
+    return fut.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 202, in read
+    convert_stream_closed_error(self, e)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/tcp.py", line 122, in convert_stream_closed_error
+    raise CommClosedError(
+distributed.comm.core.CommClosedError: in <closed TCP>: ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:37563
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:34753
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:36941
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:43213
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:44003
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:33863
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:33145
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:37357
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:46095
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:39525
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:46507
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:40559
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:47013
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:46219
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:37805
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:43291
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:40055
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:35365
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:44473
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-392' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 498, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+tornado.application - ERROR - Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOLoop object at 0x1554c9a5ba30>>, <Task finished name='Task-383' coro=<Worker.heartbeat() done, defined at /home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py:930> exception=OSError('Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s')>)
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 319, in connect
+    handshake = await asyncio.wait_for(comm.read(), time_left())
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/asyncio/tasks.py", line 498, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/tornado/ioloop.py", line 765, in _discard_future_result
+    future.result()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 976, in heartbeat
+    raise e
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/worker.py", line 936, in heartbeat
+    response = await retry_operation(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 384, in retry_operation
+    return await retry(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/utils_comm.py", line 369, in retry
+    return await coro()
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 855, in send_recv_from_rpc
+    comm = await self.pool.connect(self.addr)
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/core.py", line 1006, in connect
+    comm = await connect(
+  File "/home/ntolley/anaconda3/envs/sbi/lib/python3.8/site-packages/distributed/comm/core.py", line 324, in connect
+    raise IOError(
+OSError: Timed out during handshake while connecting to tcp://198.202.103.184:39127 after 10 s
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:33277
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:36899
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:33819
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:42811
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:38555
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:38033
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:35583
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:32865
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:44957
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:44441
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:34423
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:39459
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:45787
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:43573
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:40661
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:32993
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:42245
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:34609
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:44981
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:40219
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:38707
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:33477
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:41113
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:39497
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:42711
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:40041
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:38521
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:42137
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:42075
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.core - INFO - Event loop was unresponsive in Nanny for 7.72s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Worker closed
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:36177
+distributed.nanny - INFO - Worker closed
+distributed.worker - INFO - Stopping worker at tcp://198.202.101.175:37435
+distributed.nanny - INFO - Worker closed
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34661'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:44843'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:39267'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34915'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:43825'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:42903'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41017'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:38211'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:36413'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41629'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:35001'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:40861'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:38755'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41295'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34703'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:35585'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:38663'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:36461'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34823'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:45797'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:45363'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34319'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:33103'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:37667'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:42171'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:39391'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34867'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41767'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:35193'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:35271'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34461'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:34759'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:46181'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:44341'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:45855'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:40243'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:35299'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:37969'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41277'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:38609'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:39919'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:42311'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:42405'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:43387'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41855'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:42051'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:37937'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:40931'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:37771'
+distributed.nanny - INFO - Closing Nanny at 'tcp://198.202.101.175:41471'
+distributed.dask_worker - INFO - End worker
