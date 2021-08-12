@@ -15652,3 +15652,4 @@ distributed.core - INFO - Event loop was unresponsive in Worker for 60.53s.  Thi
 distributed.core - INFO - Event loop was unresponsive in Worker for 64.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
 distributed.core - INFO - Event loop was unresponsive in Worker for 49.97s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
 distributed.core - INFO - Event loop was unresponsive in Worker for 39.24s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+slurmstepd: error: *** JOB 149049 ON node1833 CANCELLED AT 2021-01-17T00:43:09 ***
